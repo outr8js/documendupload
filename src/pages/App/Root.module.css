@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryContainer {
+    width: 20%;
+    margin-top: 4rem;
+    
+}
+.titleContainer {
+
+}
+
+.textContainer {
+
+}
+
+.dropdown  {
+    background-color: var(--light-blue);
+    width: 100%;
+    border :0;
+    border-radius: 8px;
+    height: 50px;
+    padding : 1rem;
+    font-size: 1rem;
+    font-family: 'Comfortaa';
+    cursor: pointer;
+    color : var(--dark-blue);
+
+
+}
+.dropdown svg {
+    margin-right: 1rem;
+}
+
+.dropdown::placeholder {
+    color : var(--dark-blue)
+}
+
+.dropdown::before {
+font-size: 1rem;
+margin-right: 1rem;
+}

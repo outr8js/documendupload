@@ -1,0 +1,25 @@
+.rightSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.listTitle {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.listContainer {
+  margin-top: 1rem;
+}
+
+.list {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.list li {
+  margin: 4px;
+}

@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    height:  70px;
+    /* flex:1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color:var(--gray-color);
+    margin:0
+}
+
+.logoContainer {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 8px;
+    margin-left: 2rem;
+    
+}
+
+.logoContainer img {
+    width: 40px;
+}
+
+.logoText {
+    font-size: 24px;
+    color : #fff;
+    cursor: pointer;
+}
+.navbarContainer {
+    width: 45%;
+    height:23px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarContainer li {
+    cursor: pointer;
+}
+
+.navList {
+    width: 100%;
+    display: flex;
+    list-style-type : none;
+    align-items: center;
+    justify-content: space-around;
+    color : var(--darkgray-color)
+}
+
+.rightContainer {
+    width: 360px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 2rem;
+
+    
+}
+.profileContainer {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3rem;
+}
+.profileContainer p {
+    color : #fff;
+    font-size: 14px;
+
+}
+.rightContainer button {
+    width: 143px;
+    height: 40px;
+    background-color: #fff;
+    color :  var(--primary-color);
+    border : 0;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'comfortaa';
+
+}
+.menuContainer {
+    position: fixed;
+    right : 0;
+    top:70px;
+    padding-top: 2rem;
+    color : var(--primary-color);
+    height: 100vh;
+    width: 50%;
+    /* transition: ease-in-out;
+    transition-duration: 500; */
+    transition: left 1s ease-in-out;
+    border-left: 1px solid darkgray;
+}
+
+.menuIconContainer {
+    margin-right : 2rem;
+}
+
+.hiddenMenu {
+    position: fixed;
+    left : -300px;
+    
+}
+
+.mobileList {
+    list-style-type: none;
+    padding-left: 1rem;
+    
+}
+.mobileList li {
+    padding : 1rem;
+    border-bottom: 0.3px solid lightgray;
+    margin-left: 0;
+}
+.mobileList li:last-child {
+    border-bottom: 0;
+}
+@media only screen and (max-width: 850px)  {
+    .navbarContainer {
+        display: none;
+    }
+    .rightContainer {
+        display: none;
+    }
+    .container {
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (min-width: 850px)  { 
+    .menuContainer {
+        display: none;
+    }
+    .menuIconContainer {
+        display: none;
+    }
+}

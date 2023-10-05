@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    height: 300px;
+}
+.titleContainer {
+    width: 100%;
+
+}
+.titleText {
+    margin-left: 4rem;
+    font-size: 3rem;
+    color : var(--primary-color);
+    font-weight: bold;
+}
